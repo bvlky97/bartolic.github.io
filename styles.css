@@ -1,8 +1,118 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2C3E50;
+}
+
+a {
+    text-decoration: none;
+    color: #2980B9;
+}
+
+/* Header */
+header {
+    background-color: #34495E;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #2980B9;
+    color: #fff;
+    padding: 50px;
     text-align: center;
 }
-h1 {
-    color: #333;
+
+#hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+/* About Section */
+#about {
+    padding: 40px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    margin-bottom: 20px;
+}
+
+#services h3 {
+    font-size: 24px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Footer */
+footer {
+    background-color: #34495E;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
